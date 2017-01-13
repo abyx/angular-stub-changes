@@ -1,0 +1,26 @@
+{
+  "name": "angular-stub-changes",
+  "version": "1.0.0",
+  "description": "A stub implementation of the $onChanges changes object for easier testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abyx/angular-stub-changes.git"
+  },
+  "keywords": [
+    "angular",
+    "test",
+    "unit",
+    "stub",
+    "onChanges"
+  ],
+  "author": "Aviv Ben-Yosef <aviv.by@gmail.com> (http://www.codelord.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abyx/angular-stub-changes/issues"
+  },
+  "homepage": "https://github.com/abyx/angular-stub-changes#readme"
+}
