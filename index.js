@@ -1,5 +1,6 @@
 'use strict';
 
+(function() {
 function ChangesStub() {
   var self = this;
   var changes = {};
@@ -27,4 +28,9 @@ function ChangesStub() {
   }
 }
 
-module.exports = ChangesStub;
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+  module.exports = ChangesStub;
+} else {
+  window.StubChanges = ChangesStub;
+}
+})();
